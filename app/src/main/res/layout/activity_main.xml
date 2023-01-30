@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@dimen/biodata_margin"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/biodata_margin"
+        android:text="@string/move_activity"
+        />
+
+    <Button
+        android:id="@+id/btn_move_activity_Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/biodata_margin"
+        android:text="Move Activity For Data"
+        />
+
+    <Button
+        android:id="@+id/btn_move_activity_Object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/biodata_margin"
+        android:text="Move Activity For Object"
+        />
+
+    <Button
+        android:id="@+id/btn_move_activity_App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/biodata_margin"
+        android:text="Move Activity For App"
+        />
+
+    <Button
+        android:id="@+id/btn_move_activity_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/biodata_margin"
+        android:text="Move Activity For Result"
+        />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textSize="20sp" />
+</LinearLayout>
